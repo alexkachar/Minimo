@@ -1,8 +1,8 @@
 {
-  "name": "gulp-starter",
+  "name": "gulp-starter-kit",
   "version": "16.0.0",
   "private": true,
-  "description": "Gulp starter pack",
+  "description": "Gulp starter kit",
   "devDependencies": {
     "@htmlacademy/editorconfig-cli": "1.x",
     "autoprefixer": "9.5.x",
