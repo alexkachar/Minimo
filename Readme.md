@@ -1,1 +1,1 @@
-Gulp starter kit
+Minimo portfolio project - html/scss layout repository.
