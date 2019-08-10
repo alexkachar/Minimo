@@ -7,3 +7,18 @@
   padding-left: 150px;
   padding-right: 150px;
 }
+
+@mixin text-accent {
+  font-family: "Ubuntu";
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #b4ad9e;
+}
+
+@mixin text-regular {
+  font-family: "Playfair Display";
+  font-size: 14px;
+  font-weight: 400;
+  color: #626262;
+}
