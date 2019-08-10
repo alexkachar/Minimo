@@ -1,0 +1,25 @@
+.post {
+
+  @media (min-width: $width-desktop) {
+
+    width: 420px;
+
+    margin-right: 60px;
+
+    &:nth-of-type(2n) {
+      margin-right: 0;
+    }
+
+    &--wide {
+      width: 100%;
+    }
+
+    &__figure--wide {
+      @include padding-narrow;
+    }
+
+    &__separator {
+      @include padding-wide;
+    }
+  }
+}

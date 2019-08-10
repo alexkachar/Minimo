@@ -1,0 +1,12 @@
+.posts {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+    @media (min-width: $width-desktop) {
+      @include padding-wide;
+
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+}

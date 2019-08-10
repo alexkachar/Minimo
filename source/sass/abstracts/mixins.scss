@@ -1,1 +1,9 @@
+@mixin padding-narrow {
+  padding-left: 70px;
+  padding-right: 70px;
+}
 
+@mixin padding-wide {
+  padding-left: 150px;
+  padding-right: 150px;
+}

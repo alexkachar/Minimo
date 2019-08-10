@@ -1,0 +1,22 @@
+.page-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  @media (min-width: $width-tablet) {
+    @include padding-narrow;
+
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    font-family: "Inconsolata";
+    font-size: 30px;
+    font-weight: 400;
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+}
