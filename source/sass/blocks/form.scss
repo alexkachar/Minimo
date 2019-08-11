@@ -3,6 +3,7 @@
   &__field-cover {
     position: relative;
     margin: 0 auto;
+    padding-bottom: 20px;
     margin-bottom: 20px;
 
     @media (min-width: $width-desktop) {
@@ -38,7 +39,7 @@
   &__label {
     position: absolute;
     left: 5px;
-    top: -1px;
+    top: -11px;
     @include text-regular;
     pointer-events: none;
     transition: all .2s ease;
@@ -50,8 +51,8 @@
     position: absolute;
     width: 32px;
     height: 17px;
-    right: 5px;
-    top: -3px;
+    right: 0;
+    top: -7px;
     background: none;
     background-image: url('../img/arrow.svg');
     background-repeat: no-repeat;

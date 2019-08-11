@@ -1,9 +1,10 @@
 .page-footer {
-
   @include site-wrapper;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 20px;
+  padding-bottom: 28px;
   background-color: #f0f0f0;
 
   @media (min-width: $width-desktop) {

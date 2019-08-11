@@ -1,25 +1,44 @@
 .post {
 
+  padding-bottom: 54px;
+
+  &--wide {
+    padding-bottom: 0;
+  }
+
   @media (min-width: $width-desktop) {
 
     &__figure--wide {
       @include padding-narrow;
+      margin-bottom: 84px;
     }
 
     &__separator {
       @include padding-wide;
+
+      &--wide {
+        margin-bottom: 125px;
+      }
     }
   }
 
   &__category {
     @include text-accent;
+    margin-bottom: 8px;
   }
 
   &__title {
+    margin-top: 13px;
+    margin-bottom: 19px;
     font-family: "Playfair Display";
     font-size: 30px;
     font-weight: 400;
     color: #626262;
+
+    &--wide {
+      margin-top: 0;
+      margin-bottom: 19px;
+    }
 
     &--suggestions {
       font-size: 20px;
@@ -35,6 +54,7 @@
 
   &__comment-btn {
     @include text-accent;
+    margin-top: 34px;
     border: none;
     background: none;
     padding: 0;
