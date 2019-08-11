@@ -138,9 +138,9 @@
 
       <article class="comment">
         <figure class="comment__figure">
-          <img class="comment__img" src="#" alt="commentators user picture" width="72" height="72">
+          <img class="comment__img" src="./img/commentator1.jpg" alt="commentators user picture" width="72" height="72">
         </figure>
-        <div class="comment__right">
+        <div class="comment__self">
           <p class="comment__user-title">John Doe</p>
           <p class="comment__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
             laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
@@ -151,9 +151,9 @@
 
       <article class="comment">
         <figure class="comment__figure">
-          <img class="comment__img" src="#" alt="commentators user picture" width="72" height="72">
+          <img class="comment__img" src="./img/commentator2.png" alt="commentators user picture" width="72" height="72">
         </figure>
-        <div class="comment__right">
+        <div class="comment__self">
           <p class="comment__user-title">Jane Doe</p>
           <p class="comment__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
             doloremque.</p>
@@ -163,12 +163,19 @@
 
       <article class="comment comment--reply">
         <figure class="comment__figure comment__figure--reply">
-          <img class="comment__img comment__img--reply" src="#" alt="commentators user picture" width="72" height="72">
+          <img class="comment__img comment__img--reply" src="./img/commentator3.png" alt="commentators user picture"
+            width="72" height="72">
         </figure>
-        <form action="post" class="comment__form">
-          <textarea id="comment-text" name="comment-text" placeholder="Join the discussion"></textarea>
-          <button class="form__btn submit" type="submit">Send</button>
-        </form>
+        <div class="comment__self">
+          <form action="post" class="comment__form">
+            <div class="comment__textarea-wrapper">
+              <textarea class="comment__textarea" id="comment-text" name="comment-text"
+                placeholder="Join the discussion"
+                oninput='this.style.height = "";this.style.height = this.scrollHeight + "px"'></textarea>
+              <button class="form__btn submit" type="submit">Send</button>
+            </div>
+          </form>
+        </div>
       </article>
 
     </section>
@@ -184,8 +191,8 @@
 
     <section class="social">
       <h2 class="visually-hidden">Social network links</h2>
-      <p class="social__text">Follow</p>
       <ul class="social__list">
+        <li class="social__item social__item--text">Follow</li>
         <li class="social__item">
           <a class="social__link social__link--twitter" href="#" aria-label="twitter">
             <span class="visually-hidden">Twitter link</span>

@@ -1,0 +1,7 @@
+.comments {
+  @include padding-wide;
+
+  &__count {
+    @include text-accent;
+  }
+}
