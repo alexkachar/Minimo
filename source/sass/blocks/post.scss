@@ -6,11 +6,18 @@
     padding-bottom: 0;
   }
 
+  &__figure {
+    padding-top: 32px;
+    padding-bottom: 17px;
+  }
+
   @media (min-width: $width-desktop) {
 
     &__figure--wide {
       @include padding-narrow;
       margin-bottom: 84px;
+      padding-top: 0;
+      padding-bottom: 0;
     }
 
     &__separator {
