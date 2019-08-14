@@ -1,20 +1,14 @@
 .links {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-
-  @media (min-width: $width-desktop) {
-    flex-direction: row;
-  }
 
   &__link {
     @include text-regular;
+    margin-right: 20px;
 
     color: #000;
     text-decoration: none;
 
-    @media (min-width: $width-desktop) {
-      margin-right: 20px;
-    }
   }
 }

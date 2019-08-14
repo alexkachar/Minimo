@@ -9,19 +9,11 @@
 }
 
 @mixin site-wrapper {
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
-
-  @media (min-width: $width-desktop) {
-    width: $width-desktop;
-    padding-left: 0;
-    padding-right: 0;
-  }
+    width: $site-width;
 }
 
 @mixin text-accent {
-  font-family: "Ubuntu";
+  font-family: $font-accent;
   font-size: 14px;
   font-weight: 300;
   text-transform: uppercase;
@@ -29,7 +21,7 @@
 }
 
 @mixin text-regular {
-  font-family: "Playfair Display";
+  font-family: $font-regular;
   font-size: 14px;
   font-weight: 400;
   color: #626262;

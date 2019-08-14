@@ -5,10 +5,8 @@
     margin: 0 auto;
     padding-bottom: 20px;
     margin-bottom: 20px;
+    width: 400px;
 
-    @media (min-width: $width-desktop) {
-      width: 400px;
-    }
   }
 
   &__input {

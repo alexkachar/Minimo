@@ -2,21 +2,18 @@
   background-color: #f0f0f0;
 
   &__content {
-    margin: 0 auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    padding-left: 20px;
-    padding-right: 20px;
+
+
+    width: $width-desktop;
+    margin: 0 auto;
+
     padding-top: 20px;
     padding-bottom: 28px;
-
-    @media (min-width: $width-desktop) {
-      width: $width-desktop;
-      flex-direction: row;
-      justify-content: space-between;
-      padding-left: 150px;
-      padding-right: 70px;
-    }
+    padding-left: 150px;
+    padding-right: 70px;
   }
 }

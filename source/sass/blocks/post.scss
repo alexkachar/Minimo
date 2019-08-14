@@ -1,5 +1,4 @@
 .post {
-
   padding-bottom: 54px;
 
   &--wide {
@@ -12,21 +11,18 @@
     padding-bottom: 17px;
   }
 
-  @media (min-width: $width-desktop) {
+  &__figure--wide {
+    @include padding-narrow;
+    margin-bottom: 84px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 
-    &__figure--wide {
-      @include padding-narrow;
-      margin-bottom: 84px;
-      padding-top: 0;
-      padding-bottom: 0;
-    }
+  &__separator {
+    @include padding-wide;
 
-    &__separator {
-      @include padding-wide;
-
-      &--wide {
-        margin-bottom: 125px;
-      }
+    &--wide {
+      margin-bottom: 95px;
     }
   }
 
