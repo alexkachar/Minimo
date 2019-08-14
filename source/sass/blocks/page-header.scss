@@ -2,18 +2,14 @@
   @include site-wrapper;
 
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
   flex-wrap: wrap;
 
-  @media (min-width: $width-desktop) {
-    @include padding-narrow;
+  @include padding-narrow;
 
-    padding-top: 53px;
-    padding-bottom: 58px;
-    flex-direction: row;
-    justify-content: space-between;
-  }
+  padding-top: 53px;
+  padding-bottom: 58px;
 
   &__logo {
     font-family: "Inconsolata";
