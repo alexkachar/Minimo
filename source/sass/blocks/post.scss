@@ -1,5 +1,5 @@
 .post {
-  margin-bottom: 105px;
+  margin-bottom: 95px;
 
   &--wide {
     @include site-wrapper;
@@ -9,8 +9,14 @@
 
   &__figure {
 
+    &--post-page {
+      padding-top: 35px;
+      padding-bottom: 18px;
+    }
+
     &--wide {
       @include padding-narrow;
+      margin-top: 0;
       margin-bottom: 84px;
       padding-top: 0;
       padding-bottom: 0;
@@ -48,15 +54,22 @@
   }
 
   &__text {
+    margin-top: 5px;
+    margin-bottom: 24px;
     font-family: "Playfair Display";
     font-size: 14px;
     font-weight: 400;
     color: #626262;
   }
 
+  &__quote {
+    margin: 23px 22px;
+    font-style: italic;
+  }
+
   &__comment-btn {
     @include text-accent;
-    margin-top: 34px;
+    margin-top: 24px;
     border: none;
     background: none;
     padding: 0;
