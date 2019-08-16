@@ -1,28 +1,26 @@
 .post {
-  padding-bottom: 54px;
+  margin-bottom: 105px;
 
   &--wide {
     @include site-wrapper;
     padding-bottom: 0;
+    margin-bottom: 130px;
   }
 
   &__figure {
-    padding-top: 32px;
-    padding-bottom: 17px;
-  }
 
-  &__figure--wide {
-    @include padding-narrow;
-    margin-bottom: 84px;
-    padding-top: 0;
-    padding-bottom: 0;
+    &--wide {
+      @include padding-narrow;
+      margin-bottom: 84px;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
   }
 
   &__separator {
-    @include padding-wide;
 
     &--wide {
-      margin-bottom: 95px;
+      @include padding-wide;
     }
   }
 
