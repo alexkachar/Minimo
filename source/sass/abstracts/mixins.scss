@@ -8,8 +8,14 @@
   padding-right: 150px;
 }
 
+@mixin gray-accent {
+  min-width: 1200px;
+  background-color: #f0f0f0;
+}
+
 @mixin site-wrapper {
-    width: $site-width;
+  margin: 0 auto;
+  width: 1200px;
 }
 
 @mixin text-accent {
@@ -21,7 +27,7 @@
 }
 
 @mixin text-regular {
-  font-family: $font-regular;
+  font-family: $font;
   font-size: 14px;
   font-weight: 400;
   color: #626262;
