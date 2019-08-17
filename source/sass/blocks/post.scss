@@ -7,6 +7,14 @@
     margin-bottom: 130px;
   }
 
+  &--suggestions {
+    margin-bottom: 60px;
+  }
+
+  &--full {
+    margin-bottom: 66px;
+  }
+
   &__figure {
 
     &--post-page {
@@ -49,6 +57,7 @@
     }
 
     &--suggestions {
+      margin-top: 8px;
       font-size: 20px;
     }
   }
@@ -63,7 +72,7 @@
   }
 
   &__quote {
-    margin: 23px 22px;
+    margin: 19px 22px;
     font-style: italic;
   }
 

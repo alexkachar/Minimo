@@ -6,6 +6,7 @@
   justify-content: flex-start;
 
   &--suggestions {
+    padding-top: 47px;
     background-color: #f0f0f0;
   }
 
@@ -27,5 +28,6 @@
     @include padding-wide;
     @include text-accent;
     width: 100%;
+    margin-bottom: 31px;
   }
 }
