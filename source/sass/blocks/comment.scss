@@ -41,7 +41,13 @@
     background: none;
   }
 
+  &__submit-btn {
+    right: 7px;
+    top: 54px;
+  }
+
   &__textarea-wrapper {
+    position: relative;
     padding-top: 28px;
   }
 
