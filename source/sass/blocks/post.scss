@@ -82,5 +82,9 @@
     border: none;
     background: none;
     padding: 0;
+
+    &:hover {
+      color: $color-blue;
+    }
   }
 }

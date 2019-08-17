@@ -57,5 +57,9 @@
   &__icon {
     color: #b4ad9e;
     font-size: 15px;
+
+    &:hover {
+      color: $color-blue;
+    }
   }
 }

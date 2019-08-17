@@ -10,4 +10,9 @@
   color: #626262;
   background: none;
   border: 1px #626262 solid;
+
+  &:hover {
+    color: $color-blue;
+    border: 1px $color-blue solid;
+  }
 }

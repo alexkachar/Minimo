@@ -39,6 +39,10 @@
     padding: 0;
     border: none;
     background: none;
+
+    &:hover {
+      color: $color-blue;
+    }
   }
 
   &__submit-btn {
