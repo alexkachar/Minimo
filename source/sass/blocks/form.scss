@@ -56,9 +56,15 @@
     background-image: url('../img/arrow.svg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    outline: none;
 
-    &:hover {
+    &:hover,
+    &:focus {
       background-image: url('../img/arrow-blue.svg');
+    }
+
+    &:active {
+      color: $color-gray-transparent;
     }
   }
 }

@@ -26,9 +26,15 @@
     font-size: 14px;
     font-weight: 400;
     color: $color-grayish;
+    outline: none;
 
-    &:hover {
+    &:hover,
+    &:focus {
       color: $color-blue;
+    }
+
+    &:active {
+      color: $color-gray-transparent;
     }
   }
 }

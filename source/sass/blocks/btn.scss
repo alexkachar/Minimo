@@ -10,9 +10,16 @@
   color: $color-gray;
   background: none;
   border: 1px $color-gray solid;
+  outline: none;
 
-  &:hover {
+  &:hover,
+  &:focus {
     color: $color-blue;
     border: 1px $color-blue solid;
+  }
+
+  &:active {
+    color: $color-gray-transparent;
+    border: 1px $color-gray-transparent solid;
   }
 }

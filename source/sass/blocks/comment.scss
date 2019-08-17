@@ -39,9 +39,15 @@
     padding: 0;
     border: none;
     background: none;
+    outline: none;
 
-    &:hover {
+    &:hover,
+    &:focus {
       color: $color-blue;
+    }
+
+    &:active {
+      color: $color-gray-transparent;
     }
   }
 

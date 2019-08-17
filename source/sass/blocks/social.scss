@@ -24,6 +24,7 @@
     height: 15px;
     text-decoration: none;
     cursor: pointer;
+    outline: none;
 
     &--facebook {
       padding-top: 5px;
@@ -40,12 +41,20 @@
     }
   }
 
+  &__link:focus &__icon {
+    color: $color-blue;
+  }
+
   &__icon {
     color: $color-gray;
     font-size: 15px;
 
     &:hover {
       color: $color-blue;
+    }
+
+    &:active {
+      color: $color-gray-transparent;
     }
   }
 }

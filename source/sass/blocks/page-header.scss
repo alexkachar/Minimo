@@ -19,5 +19,15 @@
     color: $color-black;
     text-transform: uppercase;
     text-decoration: none;
+    outline: none;
+
+    &:hover,
+    &:focus {
+      color: $color-blue;
+    }
+
+    &:active {
+      color: $color-gray-transparent;
+    }
   }
 }
