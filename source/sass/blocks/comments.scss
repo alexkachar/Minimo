@@ -1,7 +1,11 @@
 .comments {
   @include padding-wide;
+  @include site-wrapper;
+  margin-bottom: 158px;
+  padding-top: 50px;
 
   &__count {
     @include text-accent;
+    margin-bottom: 16px;
   }
 }

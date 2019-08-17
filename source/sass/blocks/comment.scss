@@ -2,8 +2,10 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  margin-bottom: 31px;
 
   &__figure {
+    padding-top: 20px;
     margin-right: 35px;
   }
 
@@ -18,6 +20,7 @@
   }
 
   &__user-title {
+    margin-bottom: 5px;
     font-family: "Playfair Display";
     font-size: 14px;
     font-weight: 700;
@@ -25,6 +28,7 @@
   }
 
   &__text {
+    margin-top: 5px;
     font-family: "Playfair Display";
     font-size: 14px;
     font-weight: 400;
@@ -32,8 +36,13 @@
 
   &__reply-btn {
     @include text-accent;
+    padding: 0;
     border: none;
     background: none;
+  }
+
+  &__textarea-wrapper {
+    padding-top: 28px;
   }
 
   &__textarea {
@@ -41,7 +50,14 @@
     resize: none;
     overflow: hidden;
     width: 100%;
-    padding: 20px;
-    border-radius: 10px;
+    padding-top: 25px;
+    padding-bottom: 11px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-radius: 5px;
+
+    &::placeholder {
+      @include text-accent;
+    }
   }
 }
