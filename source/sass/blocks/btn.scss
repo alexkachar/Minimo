@@ -4,12 +4,12 @@
   margin: 44px auto 95px auto;
   padding: 17px 33px;
 
-  font-family: "Playfair Display";
+  font-family: $font;
   font-size: 20px;
   font-weight: 400;
-  color: #626262;
+  color: $color-gray;
   background: none;
-  border: 1px #626262 solid;
+  border: 1px $color-gray solid;
 
   &:hover {
     color: $color-blue;

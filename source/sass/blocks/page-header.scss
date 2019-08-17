@@ -12,11 +12,11 @@
   padding-bottom: 58px;
 
   &__logo {
-    font-family: "Inconsolata";
+    font-family: $font-logo;
     font-size: 30px;
     font-weight: 400;
     letter-spacing: 6px;
-    color: #000;
+    color: $color-black;
     text-transform: uppercase;
     text-decoration: none;
   }

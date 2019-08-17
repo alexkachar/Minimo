@@ -38,18 +38,10 @@
       padding-top: 9px;
       padding-right: 2px;
     }
-
-    &:hover {
-
-    }
-
-    &:active {
-
-    }
-}
+  }
 
   &__icon {
-    color: #626262;
+    color: $color-gray;
     font-size: 15px;
 
     &:hover {

@@ -46,10 +46,10 @@
   &__title {
     margin-top: 13px;
     margin-bottom: 19px;
-    font-family: "Playfair Display";
+    font-family: $font;
     font-size: 30px;
     font-weight: 400;
-    color: #626262;
+    color: $color-gray;
 
     &--wide {
       margin-top: 0;
@@ -65,10 +65,10 @@
   &__text {
     margin-top: 5px;
     margin-bottom: 24px;
-    font-family: "Playfair Display";
+    font-family: $font;
     font-size: 14px;
     font-weight: 400;
-    color: #626262;
+    color: $color-gray;
   }
 
   &__quote {
